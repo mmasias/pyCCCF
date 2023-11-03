@@ -8,7 +8,7 @@
 
 </div>
 
-## Estados 
+## Estados
 
 ### Estado intermedio (diagrama de objetos)
 
