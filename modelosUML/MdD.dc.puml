@@ -2,9 +2,9 @@ hide circle
 hide stereotype
 hide empty members
 
-CentroComercial -- Caja:> Dispone de
+CentroComercial -- Caja:> dispone de
 CentroComercial -- Cliente:> recibe
-CentroComercial -- Cajero:> contrata
+CentroComercial -- Cajero:> dispone de
 
 'Cajero -u-|> Persona
 'Cliente -u-|> Persona
