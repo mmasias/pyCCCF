@@ -4,7 +4,7 @@
 
 <div align=center>
 
-![](/imagenes/modelosUML/mdd.dc.svg)
+![](/imagenes/modelosUML/MdD.dc.svg)
 
 </div>
 
@@ -14,7 +14,7 @@
 
 <div align=center>
 
-![](/imagenes/modelosUML/mdd.do.svg)
+![](/imagenes/modelosUML/MdD.do.svg)
 
 </div>
 
@@ -22,6 +22,6 @@
 
 <div align=center>
 
-![](/imagenes/modelosUML/mdd.de.svg)
+![](/imagenes/modelosUML/MdD.de.svg)
 
 </div>

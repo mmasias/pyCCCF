@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="376px" preserveAspectRatio="none" style="width:414px;height:376px;background:#FFFFFF;" version="1.1" viewBox="0 0 414 376" width="414px" zoomAndPan="magnify"><defs/><g><!--MD5=[a288e7e34db1f51eaf8904506d727000]
+class CentroComercial--><g id="elem_CentroComercial"><rect fill="#F1F1F1" height="29.0679" id="CentroComercial" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="118" x="81.09" y="7"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="112" x="84.09" y="26.9659">CentroComercial</text></g><!--MD5=[b2b224e876b723bde36af294211d87d8]
+class Caja--><g id="elem_Caja"><rect fill="#F1F1F1" height="29.0679" id="Caja" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="35" x="110.59" y="341"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="29" x="113.59" y="360.9659">Caja</text></g><!--MD5=[20a748d5ee336a9a91751b0a3d4f0beb]
+class Cliente--><g id="elem_Cliente"><rect fill="#F1F1F1" height="29.0679" id="Cliente" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="53" x="113.59" y="115"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="47" x="116.59" y="134.9659">Cliente</text></g><!--MD5=[cfddeba515cfed8010a010971b40569e]
+class Cajero--><g id="elem_Cajero"><rect fill="#F1F1F1" height="29.0679" id="Cajero" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="49" x="290.59" y="174"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="43" x="293.59" y="193.9659">Cajero</text></g><!--MD5=[1919ef7aecc5209ad78f9ad723215264]
+class Cola--><g id="elem_Cola"><rect fill="#F1F1F1" height="29.0679" id="Cola" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="35" x="230.59" y="233"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="29" x="233.59" y="252.9659">Cola</text></g><!--MD5=[355a6ca1d2b3649bda5bb4b915093dce]
+link CentroComercial to Caja--><g id="link_CentroComercial_Caja"><path codeLine="5" d="M125.07,36.13 C99.26,60.69 47.44,115.29 28.09,174 C6,241.03 77.13,311.78 111.08,340.84 " fill="none" id="CentroComercial-Caja" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#000000" points="32.8607,193.8477,36.2114,184.947,30.3397,184.6774,32.8607,193.8477" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="66" x="42.09" y="193.897">dispone de</text></g><!--MD5=[5935fe18d4e5efb8ca8820e15c550621]
+link CentroComercial to Cliente--><g id="link_CentroComercial_Cliente"><path codeLine="6" d="M140.09,36.36 C140.09,56.78 140.09,94.74 140.09,114.97 " fill="none" id="CentroComercial-Cliente" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#000000" points="145.09,80.853,148.0289,71.8079,142.1511,71.8079,145.09,80.853" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="36" x="154.09" y="80.897">recibe</text></g><!--MD5=[1d1b4a7125166785786543efc72ba4c9]
+link CentroComercial to Cajero--><g id="link_CentroComercial_Cajero"><path codeLine="7" d="M160.42,36.18 C172.11,44.36 186.86,55.24 199.09,66 C240.02,102.04 283.05,150.26 303.27,173.63 " fill="none" id="CentroComercial-Cajero" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#000000" points="227.693,79.3198,223.2129,70.9305,219.1374,75.1661,227.693,79.3198" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="66" x="233.09" y="80.897">dispone de</text></g><!--MD5=[9087b5b5fed9e6f14c08f7fb553bd42e]
+link Cajero to Caja--><g id="link_Cajero_Caja"><path codeLine="12" d="M319.92,203.32 C327.55,227.93 339.12,279.7 314.09,311 C293.01,337.35 187.91,349.3 145.69,353.09 " fill="none" id="Cajero-Caja" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#000000" points="330.2983,251.1124,339.0733,247.4448,335.2417,242.9875,330.2983,251.1124" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="63" x="343.09" y="252.897">atiende en</text></g><!--MD5=[bc7ac8e2abbcd49f7caebaa242deaee9]
+link Cliente to Cola--><g id="link_Cliente_Cola"><path codeLine="14" d="M150.38,144.08 C161.92,159.03 181.46,183.51 200.09,203 C210.19,213.57 222.41,224.62 232,232.94 " fill="none" id="Cliente-Cola" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#000000" points="208.4723,192.5354,204.5181,183.8858,200.1892,187.862,208.4723,192.5354" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="58" x="214.09" y="193.897">espera en</text></g><!--MD5=[8857d9e19964488465c5c0493f4c0220]
+link Cola to Caja--><g id="link_Cola_Caja"><path codeLine="16" d="M230.58,256.97 C215.45,264.79 193.5,277.38 177.09,292 C160.62,306.68 145.6,327.42 136.65,340.92 " fill="none" id="Cola-Caja" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#000000" points="178.362,305.1849,187.0645,301.3487,183.1476,296.9661,178.362,305.1849" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="118" x="191.09" y="306.897">entrega un cliente a</text></g><!--MD5=[1d3ac3990f9c116bd0a2abc3511a60d5]
+link Cliente to Caja--><g id="link_Cliente_Caja"><path codeLine="17" d="M134.74,144.15 C127.45,163.54 114.77,200.33 110.09,233 C104.49,272.05 116.39,318.11 123.41,340.66 " fill="none" id="Cliente-Caja" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#000000" points="114.8022,252.8447,118.2569,243.9838,112.3888,243.6455,114.8022,252.8447" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="88" x="124.09" y="252.897">es atendido en</text></g><!--MD5=[813386d127abc8078c0af9fdb97f7839]
+@startuml
+hide circle
+hide stereotype
+hide empty members
+
+CentroComercial - - Caja:> dispone de
+CentroComercial - - Cliente:> recibe
+CentroComercial - - Cajero:> dispone de
+
+'Cajero -u-|> Persona
+'Cliente -u-|> Persona
+
+Cajero - - Caja:> atiende en
+
+Cliente - - Cola:> espera en
+
+Cola - - Caja:> entrega un cliente a
+Cliente - - Caja:> es atendido en
+@enduml
+
+@startuml
+hide circle
+hide stereotype
+hide empty members
+
+CentroComercial - - Caja:> dispone de
+CentroComercial - - Cliente:> recibe
+CentroComercial - - Cajero:> dispone de
+
+
+Cajero - - Caja:> atiende en
+
+Cliente - - Cola:> espera en
+
+Cola - - Caja:> entrega un cliente a
+Cliente - - Caja:> es atendido en
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 19:01:30 CEST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: es
+Country: ES
+--></g></svg>
