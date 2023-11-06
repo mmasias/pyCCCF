@@ -26,14 +26,15 @@ class CentroComercial {
     public void funciona() {
         while (estaAbierto) {
             boolean llegaAlguien = Math.random() < probabilidadLlegada ? true : false;
+            
             if (llegaAlguien) {
                 String minutoYSegundoActuales = LocalTime.now().format(DateTimeFormatter.ofPattern("mm:ss"));
                 Cliente cliente = new Cliente(COMPRA_MINIMA, COMPRA_MAXIMA, "unNombre " + minutoYSegundoActuales); 
                 cola.addCliente(cliente);
             }
-            if (cola.tienePersonas()) {
-                cajas.atiende();
-            }
+            
+            cajas.atiende();
+            
             estaAbierto = hora <= horaCierre ? true : false;
             hora = hora + UN_MINUTO;
             System.out.println(hora);
