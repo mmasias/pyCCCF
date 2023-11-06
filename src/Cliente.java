@@ -18,6 +18,6 @@ public class Cliente {
 
     @Override
     public String toString() {
-        return "PdI de " + nombreCliente + " : " + packDeItems;
+        return "Atendiendo a " + nombreCliente + ". Le quedan : " + packDeItems;
     }
 }
