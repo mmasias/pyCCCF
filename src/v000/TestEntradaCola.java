@@ -1,3 +1,4 @@
+package v000;
 class TestEntradaCola {
     public static void main(String[] args) {
 

@@ -1,11 +1,14 @@
+package v000;
 
 public class Caja {
 
     private boolean abierta;
     private Cliente cliente;
+    private String nombreDeCaja;
 
-    Caja() {
+    Caja(String nombre) {
         this.abierta = true;
+        this.nombreDeCaja = nombre;
     }
 
     public boolean estaLibre() {
@@ -15,12 +18,11 @@ public class Caja {
     public void recibe(Cliente unCliente) {
         abierta = false;
         cliente = unCliente;
-        System.out.println("Caja Ocupada");
     }
 
     public void atiende() {
         cliente.entregaProducto();
-        System.out.println(cliente.toString());
+        System.out.println("Caja [" + nombreDeCaja + "] atendió a " + cliente.toString());
         despacha();
     }
 
@@ -28,7 +30,6 @@ public class Caja {
         if (!cliente.tieneProductos()) {
             cliente = null;
             abierta = true;
-            System.out.println("Caja libre");
         }
     }
 }
