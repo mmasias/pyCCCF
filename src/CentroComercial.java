@@ -20,7 +20,7 @@ class CentroComercial {
         hora = horaApertura;
         estaAbierto = hora >= horaApertura ? true : false;
         cola = new Cola();
-        cajas = new CentroDeAtencion(cola);
+        cajas = new CentroDeAtencion(cola, 10);
     }
 
     public void funciona() {
@@ -37,6 +37,7 @@ class CentroComercial {
             estaAbierto = hora <= horaCierre ? true : false;
             hora = hora + UN_MINUTO;
             System.out.println(hora);
+            System.out.println(cola.toString());
         }
     }
 
