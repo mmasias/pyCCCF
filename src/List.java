@@ -1,5 +1,3 @@
-package listas.genericaInterfaz;
-
 public class List<T> implements IDataStructure<T> {
     
     Node<T> first;
@@ -63,7 +61,7 @@ public class List<T> implements IDataStructure<T> {
         return this;
     }
 
-    private void removeFirst() {
+    public void removeFirst() {
         first = getFirst().getNext();
     }
 
@@ -95,6 +93,23 @@ public class List<T> implements IDataStructure<T> {
 
     public Node<T> getFirst() {
         return first;
+    }
+
+    public Node<T> getLast(){
+        if (getFirst().getNext() != null) {
+            Node<T> oneBeforeLast = getFirst();
+            while (oneBeforeLast.getNext() != null ) {
+                oneBeforeLast = oneBeforeLast.getNext();
+            }
+            Node<T> theLast = oneBeforeLast;
+            oneBeforeLast.setNext(null);
+            return theLast;
+
+        } else if (getFirst()!= null) {
+            return getFirst();
+        } else {
+            return null;
+        }        
     }
 
     public boolean isEmpty() {
