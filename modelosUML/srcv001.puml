@@ -1,0 +1,49 @@
+@startuml
+
+class CentroDeAtencion {
+    + atiende(): void
+}
+
+class Caja {
+    + estaLibre(): boolean
+    + recibe(unCliente: Cliente): void
+    + atiende(): void
+}
+
+class Cliente {
+    + entregaProducto(): void
+    + tieneProductos(): boolean
+}
+
+class Cola {
+    + addCliente(cliente: Cliente): void
+    + removeCliente(): Cliente
+    + tienePersonas(): boolean
+}
+
+class CentroComercial {
+    + atiende(): void
+}
+
+class List<T> {
+}
+
+class Node<T> {
+}
+
+interface IDataStructure<T> {
+    + isEmpty(): boolean
+    + size(): int
+    + listData(): Object[]
+}
+
+Caja "1" o-- "0..1" Cliente 
+Cola "1" o-- "*" Cliente 
+CentroDeAtencion "1" -- "*" Caja : contiene >
+CentroDeAtencion -- Cola : usa >
+CentroComercial -- CentroDeAtencion : usa >
+Cola -l- List 
+List -- Node 
+List .u.|> IDataStructure
+
+@enduml

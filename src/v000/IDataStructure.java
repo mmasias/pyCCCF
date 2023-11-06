@@ -1,5 +1,4 @@
-package listas.genericaInterfaz;
-
+package v000;
 public interface IDataStructure<T> {
 
     public boolean isEmpty();

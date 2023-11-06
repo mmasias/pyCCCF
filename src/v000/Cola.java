@@ -1,3 +1,4 @@
+package v000;
 public class Cola {
     private List<Cliente> clientes;
     private int personasEnCola;

@@ -1,3 +1,4 @@
+package v000;
 
 public class Caja {
 

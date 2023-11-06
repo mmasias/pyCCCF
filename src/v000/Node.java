@@ -1,3 +1,4 @@
+package v000;
 class Node<T> {
     private T data;
     private Node<T> next;

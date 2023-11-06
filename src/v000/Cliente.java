@@ -1,3 +1,4 @@
+package v000;
 public class Cliente {
 
     private int packDeItems;
@@ -6,6 +7,7 @@ public class Cliente {
     public Cliente(int compraMinima, int compraMaxima, String nombre) {
         packDeItems = (int) (Math.random() * (compraMaxima - compraMinima) + compraMinima);
         nombreCliente = nombre;
+        System.out.println("Llegó [" + nombre + "] con [" + packDeItems + "] panes bajo el brazo");
     }
 
     public void entregaProducto() {
