@@ -2,21 +2,21 @@ package v000;
 
 public class Caja {
 
-    private boolean abierta;
+    private boolean libre;
     private Cliente cliente;
     private String nombreDeCaja;
 
     Caja(String nombre) {
-        this.abierta = true;
+        this.libre = true;
         this.nombreDeCaja = nombre;
     }
 
     public boolean estaLibre() {
-        return abierta;
+        return libre;
     }
 
     public void recibe(Cliente unCliente) {
-        abierta = false;
+        libre = false;
         cliente = unCliente;
     }
 
@@ -29,7 +29,7 @@ public class Caja {
     private void despacha() {
         if (!cliente.tieneProductos()) {
             cliente = null;
-            abierta = true;
+            libre = true;
         }
     }
 }
