@@ -13,7 +13,7 @@ class CCCF {
         boolean isWorking = true;
 
         int line = 0;
-        final double PROBABILITY_ARRIVAL = 0.6;
+        final double PROBABILITY_ARRIVAL = 0.5;
 
         int customerService1 = 0, customerService2 = 0, customerService3 = 0, customerService4 = 0;
         final int ITEM_MINIMUM = 5;
@@ -24,33 +24,28 @@ class CCCF {
             isWorking = currentTime < CLOSING_TIME;
 
             line = line + (Math.random() < PROBABILITY_ARRIVAL ? 1 : 0);
-            showHeader(currentTime, line);
-
+            
             if (line > 0 && customerService1 <= 0) {
                 line = line - 1;
                 customerService1 = (int) (Math.random() * (ITEM_MAXIMUM - ITEM_MINIMUM)) + ITEM_MINIMUM;
-                describeArrival(customerService1, 1);
             }
 
             if (line > 0 && customerService2 <= 0) {
                 line = line - 1;
                 customerService2 = (int) (Math.random() * (ITEM_MAXIMUM - ITEM_MINIMUM)) + ITEM_MINIMUM;
-                describeArrival(customerService2, 2);
             }
 
             if (line > 0 && customerService3 <= 0) {
                 line = line - 1;
                 customerService3 = (int) (Math.random() * (ITEM_MAXIMUM - ITEM_MINIMUM)) + ITEM_MINIMUM;
-                describeArrival(customerService3, 3);
             }
 
             if (line > 0 && customerService4 <= 0) {
                 line = line - 1;
                 customerService4 = (int) (Math.random() * (ITEM_MAXIMUM - ITEM_MINIMUM)) + ITEM_MINIMUM;
-                describeArrival(customerService3, 3);
             }
 
-            System.out.println("\nLINEA DE CAJAS " + "-=".repeat(10));
+            showHeader(currentTime, line);
 
             if (customerService1 > 0) {
                 customerService1 = customerService1 - 1;
@@ -77,24 +72,15 @@ class CCCF {
     }
 
     private static void describeCustomerService(int customerService, int customerServiceNumber) {
-        if (customerService > 0) {
-            System.out.println(
-                    "> Caja " + customerServiceNumber + " atiende al cliente. Le quedan [" + customerService
-                            + "] pack de items.");
-        } else {
-            System.out.println("> Caja " + customerServiceNumber + " libre.");
-        }
-    }
-
-    private static void describeArrival(int customerService, int customerServiceNumber) {
-        System.out
-                .print("Cliente a caja " + customerServiceNumber + ", con [" + customerService + "] pack de items | ");
+        System.out.println("Caja["+customerServiceNumber+"] "+"[#]".repeat(customerService));
     }
 
     private static void showHeader(double currentTime, int line) {
         final int DECIMAL_PLACES = 100;
-        System.out.println("\nESTADO " + "-=".repeat(10));
-        System.out.println("HORA: " + (double) Math.round(currentTime * DECIMAL_PLACES) / DECIMAL_PLACES);
-        System.out.print("> COLA DE " + line + " | ");
+        final String CLIENT = "_O_.";
+        System.out.println("=".repeat(40));
+        System.out.println("[" + (double) Math.round(currentTime * DECIMAL_PLACES) / DECIMAL_PLACES + "]");
+        System.out.println("FILA: " + CLIENT.repeat(line) + " ");
+        System.out.println("     " + "=".repeat(35));
     }
 }
