@@ -13,7 +13,7 @@ class CCCF {
         boolean isWorking = true;
 
         int line = 0;
-        final double PROBABILITY_ARRIVAL = 0.5;
+        final double PROBABILITY_ARRIVAL = 0.4;
 
         int customerService1 = 0, customerService2 = 0, customerService3 = 0, customerService4 = 0;
         final int ITEM_MINIMUM = 5;
@@ -24,55 +24,62 @@ class CCCF {
             isWorking = currentTime < CLOSING_TIME;
 
             line = line + (Math.random() < PROBABILITY_ARRIVAL ? 1 : 0);
-            
+
             if (line > 0 && customerService1 <= 0) {
                 line = line - 1;
-                customerService1 = (int) (Math.random() * (ITEM_MAXIMUM - ITEM_MINIMUM)) + ITEM_MINIMUM;
+                customerService1 = createItems(ITEM_MAXIMUM, ITEM_MINIMUM);
             }
 
             if (line > 0 && customerService2 <= 0) {
                 line = line - 1;
-                customerService2 = (int) (Math.random() * (ITEM_MAXIMUM - ITEM_MINIMUM)) + ITEM_MINIMUM;
+                customerService2 = createItems(ITEM_MAXIMUM, ITEM_MINIMUM);
             }
 
             if (line > 0 && customerService3 <= 0) {
                 line = line - 1;
-                customerService3 = (int) (Math.random() * (ITEM_MAXIMUM - ITEM_MINIMUM)) + ITEM_MINIMUM;
+                customerService3 = createItems(ITEM_MAXIMUM, ITEM_MINIMUM);
             }
 
             if (line > 0 && customerService4 <= 0) {
                 line = line - 1;
-                customerService4 = (int) (Math.random() * (ITEM_MAXIMUM - ITEM_MINIMUM)) + ITEM_MINIMUM;
+                customerService4 = createItems(ITEM_MAXIMUM, ITEM_MINIMUM);
             }
 
-            showHeader(currentTime, line);
-
+            
             if (customerService1 > 0) {
                 customerService1 = customerService1 - 1;
             }
-            describeCustomerService(customerService1, 1);
-
+            
             if (customerService2 > 0) {
                 customerService2 = customerService2 - 1;
             }
-            describeCustomerService(customerService2, 2);
-
+            
             if (customerService3 > 0) {
                 customerService3 = customerService3 - 1;
             }
-            describeCustomerService(customerService3, 3);
-
+            
             if (customerService4 > 0) {
                 customerService4 = customerService4 - 1;
             }
+            
+            showHeader(currentTime, line);
+            describeCustomerService(customerService1, 1);
+            describeCustomerService(customerService2, 2);
+            describeCustomerService(customerService3, 3);
             describeCustomerService(customerService4, 4);
 
             String userInput = scanner.nextLine();
+
         } while (isWorking);
     }
 
+    private static int createItems(int maxItems, int minItems) {
+        return (int) (Math.random() * (maxItems - minItems)) + minItems;
+    }
+
     private static void describeCustomerService(int customerService, int customerServiceNumber) {
-        System.out.println("Caja["+customerServiceNumber+"] "+"[#]".repeat(customerService));
+        final String ITEM = "[:]";
+        System.out.println("Caja[" + customerServiceNumber + "] " + ITEM.repeat(customerService));
     }
 
     private static void showHeader(double currentTime, int line) {
