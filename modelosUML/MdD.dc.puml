@@ -2,16 +2,16 @@ hide circle
 hide stereotype
 hide empty members
 
-CentroComercial -- Caja:> dispone de
-CentroComercial -- Cliente:> recibe
-CentroComercial -- Cajero:> dispone de
+ShoppingCenter -- CashRegister:> has
+ShoppingCenter -- Customer:> receives
+ShoppingCenter -- Cashier:> has
 
-'Cajero -u-|> Persona
-'Cliente -u-|> Persona
+'Cashier -u-|> Person
+'Customer -u-|> Person
 
-Cajero -- Caja:> atiende en
+Cashier -- CashRegister:> serves at
 
-Cliente -- Cola:> espera en
+Customer -- Queue:> waits in
 
-Cola -- Caja:> entrega un cliente a
-Cliente -- Caja:> es atendido en
+Queue -- CashRegister:> delivers a customer to
+Customer -- CashRegister:> is served at

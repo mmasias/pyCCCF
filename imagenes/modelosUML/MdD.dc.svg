@@ -1,34 +1,34 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="376px" preserveAspectRatio="none" style="width:414px;height:376px;background:#FFFFFF;" version="1.1" viewBox="0 0 414 376" width="414px" zoomAndPan="magnify"><defs/><g><!--MD5=[a288e7e34db1f51eaf8904506d727000]
-class CentroComercial--><g id="elem_CentroComercial"><rect fill="#F1F1F1" height="29.0679" id="CentroComercial" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="118" x="81.09" y="7"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="112" x="84.09" y="26.9659">CentroComercial</text></g><!--MD5=[b2b224e876b723bde36af294211d87d8]
-class Caja--><g id="elem_Caja"><rect fill="#F1F1F1" height="29.0679" id="Caja" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="35" x="110.59" y="341"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="29" x="113.59" y="360.9659">Caja</text></g><!--MD5=[20a748d5ee336a9a91751b0a3d4f0beb]
-class Cliente--><g id="elem_Cliente"><rect fill="#F1F1F1" height="29.0679" id="Cliente" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="53" x="113.59" y="115"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="47" x="116.59" y="134.9659">Cliente</text></g><!--MD5=[cfddeba515cfed8010a010971b40569e]
-class Cajero--><g id="elem_Cajero"><rect fill="#F1F1F1" height="29.0679" id="Cajero" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="49" x="290.59" y="174"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="43" x="293.59" y="193.9659">Cajero</text></g><!--MD5=[1919ef7aecc5209ad78f9ad723215264]
-class Cola--><g id="elem_Cola"><rect fill="#F1F1F1" height="29.0679" id="Cola" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="35" x="230.59" y="233"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="29" x="233.59" y="252.9659">Cola</text></g><!--MD5=[355a6ca1d2b3649bda5bb4b915093dce]
-link CentroComercial to Caja--><g id="link_CentroComercial_Caja"><path codeLine="5" d="M125.07,36.13 C99.26,60.69 47.44,115.29 28.09,174 C6,241.03 77.13,311.78 111.08,340.84 " fill="none" id="CentroComercial-Caja" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#000000" points="32.8607,193.8477,36.2114,184.947,30.3397,184.6774,32.8607,193.8477" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="66" x="42.09" y="193.897">dispone de</text></g><!--MD5=[5935fe18d4e5efb8ca8820e15c550621]
-link CentroComercial to Cliente--><g id="link_CentroComercial_Cliente"><path codeLine="6" d="M140.09,36.36 C140.09,56.78 140.09,94.74 140.09,114.97 " fill="none" id="CentroComercial-Cliente" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#000000" points="145.09,80.853,148.0289,71.8079,142.1511,71.8079,145.09,80.853" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="36" x="154.09" y="80.897">recibe</text></g><!--MD5=[1d1b4a7125166785786543efc72ba4c9]
-link CentroComercial to Cajero--><g id="link_CentroComercial_Cajero"><path codeLine="7" d="M160.42,36.18 C172.11,44.36 186.86,55.24 199.09,66 C240.02,102.04 283.05,150.26 303.27,173.63 " fill="none" id="CentroComercial-Cajero" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#000000" points="227.693,79.3198,223.2129,70.9305,219.1374,75.1661,227.693,79.3198" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="66" x="233.09" y="80.897">dispone de</text></g><!--MD5=[9087b5b5fed9e6f14c08f7fb553bd42e]
-link Cajero to Caja--><g id="link_Cajero_Caja"><path codeLine="12" d="M319.92,203.32 C327.55,227.93 339.12,279.7 314.09,311 C293.01,337.35 187.91,349.3 145.69,353.09 " fill="none" id="Cajero-Caja" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#000000" points="330.2983,251.1124,339.0733,247.4448,335.2417,242.9875,330.2983,251.1124" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="63" x="343.09" y="252.897">atiende en</text></g><!--MD5=[bc7ac8e2abbcd49f7caebaa242deaee9]
-link Cliente to Cola--><g id="link_Cliente_Cola"><path codeLine="14" d="M150.38,144.08 C161.92,159.03 181.46,183.51 200.09,203 C210.19,213.57 222.41,224.62 232,232.94 " fill="none" id="Cliente-Cola" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#000000" points="208.4723,192.5354,204.5181,183.8858,200.1892,187.862,208.4723,192.5354" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="58" x="214.09" y="193.897">espera en</text></g><!--MD5=[8857d9e19964488465c5c0493f4c0220]
-link Cola to Caja--><g id="link_Cola_Caja"><path codeLine="16" d="M230.58,256.97 C215.45,264.79 193.5,277.38 177.09,292 C160.62,306.68 145.6,327.42 136.65,340.92 " fill="none" id="Cola-Caja" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#000000" points="178.362,305.1849,187.0645,301.3487,183.1476,296.9661,178.362,305.1849" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="118" x="191.09" y="306.897">entrega un cliente a</text></g><!--MD5=[1d3ac3990f9c116bd0a2abc3511a60d5]
-link Cliente to Caja--><g id="link_Cliente_Caja"><path codeLine="17" d="M134.74,144.15 C127.45,163.54 114.77,200.33 110.09,233 C104.49,272.05 116.39,318.11 123.41,340.66 " fill="none" id="Cliente-Caja" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#000000" points="114.8022,252.8447,118.2569,243.9838,112.3888,243.6455,114.8022,252.8447" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="88" x="124.09" y="252.897">es atendido en</text></g><!--MD5=[813386d127abc8078c0af9fdb97f7839]
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="357px" preserveAspectRatio="none" style="width:373px;height:357px;background:#FFFFFF;" version="1.1" viewBox="0 0 373 357" width="373px" zoomAndPan="magnify"><defs/><g><!--MD5=[6b1f924e306f8bcb33352047894ac253]
+class ShoppingCenter--><g id="elem_ShoppingCenter"><rect fill="#F1F1F1" height="26.2969" id="ShoppingCenter" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="119" x="7" y="7"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="113" x="10" y="24.9951">ShoppingCenter</text></g><!--MD5=[b25e6897497715e5a799d59d4053e611]
+class CashRegister--><g id="elem_CashRegister"><rect fill="#F1F1F1" height="26.2969" id="CashRegister" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="99" x="35" y="325"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="93" x="38" y="342.9951">CashRegister</text></g><!--MD5=[2ce0c9fb7f55b1e256ab28a8ea6b25ec]
+class Customer--><g id="elem_Customer"><rect fill="#F1F1F1" height="26.2969" id="Customer" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="74" x="29.5" y="110"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="68" x="32.5" y="127.9951">Customer</text></g><!--MD5=[696ee820e96b7cd0d9933d0c6198e4ed]
+class Cashier--><g id="elem_Cashier"><rect fill="#F1F1F1" height="26.2969" id="Cashier" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="58" x="248.5" y="166"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="52" x="251.5" y="183.9951">Cashier</text></g><!--MD5=[15b0de36700cf8bf422172734e699e19]
+class Queue--><g id="elem_Queue"><rect fill="#F1F1F1" height="26.2969" id="Queue" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="53" x="178" y="222"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="47" x="181" y="239.9951">Queue</text></g><!--MD5=[6c6bf016c6572430fec45b9480ef0869]
+link ShoppingCenter to CashRegister--><g id="link_ShoppingCenter_CashRegister"><path codeLine="5" d="M55.84,33.19 C42.44,49.41 20.14,79.6 11.5,110 C8.34,121.12 10.48,124.49 11.5,136 C13.73,161.18 14.19,167.8 21.5,192 C36.97,243.24 65.43,300.55 78.11,324.95 " fill="none" id="ShoppingCenter-CashRegister" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#000000" points="26.8805,184.0519,29.1225,174.8094,23.2617,175.2567,26.8805,184.0519" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="23" x="35.5" y="183.5669">has</text></g><!--MD5=[08650364caed9859ebccc0c059dadeac]
+link ShoppingCenter to Customer--><g id="link_ShoppingCenter_Customer"><path codeLine="6" d="M66.5,33.38 C66.5,52.87 66.5,90.47 66.5,109.83 " fill="none" id="ShoppingCenter-Customer" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#000000" points="71.5,76.5664,74.4389,67.5213,68.5611,67.5213,71.5,76.5664" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="53" x="80.5" y="76.0669">receives</text></g><!--MD5=[feec53de72dd3c3784d2687445e87edb]
+link ShoppingCenter to Cashier--><g id="link_ShoppingCenter_Cashier"><path codeLine="7" d="M91.2,33.05 C106.44,40.87 126.14,51.68 142.5,63 C190.86,96.46 242.21,144.01 265.16,165.99 " fill="none" id="ShoppingCenter-Cashier" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#000000" points="174.4728,74.6024,169.0705,66.7751,165.5015,71.4454,174.4728,74.6024" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="23" x="179.5" y="76.0669">has</text></g><!--MD5=[fd27d6efeb8b0be69b7376ebe5d56a9f]
+link Cashier to CashRegister--><g id="link_Cashier_CashRegister"><path codeLine="12" d="M282.2,192.02 C290.28,214.88 303.71,265.02 279.5,295 C261.55,317.23 185.73,328.25 134.1,333.28 " fill="none" id="Cashier-CashRegister" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#000000" points="293.8819,238.5174,302.4555,234.4012,298.3987,230.1478,293.8819,238.5174" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="59" x="306.5" y="239.5669">serves at</text></g><!--MD5=[19430e3cdebefcdf6d92dbe38358d6fa]
+link Customer to Queue--><g id="link_Customer_Queue"><path codeLine="14" d="M81.8,136.19 C108.32,157.34 162.56,200.57 189.14,221.75 " fill="none" id="Customer-Queue" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#000000" points="157.4099,182.1829,152.1687,174.2469,148.505,178.8432,157.4099,182.1829" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="47" x="162.5" y="183.5669">waits in</text></g><!--MD5=[a1567f86c5d4db9acaaef4372f4b827b]
+link Queue to CashRegister--><g id="link_Queue_CashRegister"><path codeLine="16" d="M177.63,244.14 C159.01,250.85 134.6,261.9 117.5,278 C103.49,291.19 93.88,311.7 88.79,324.73 " fill="none" id="Queue-CashRegister" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#000000" points="118.7967,289.9258,127.4706,286.0253,123.5214,281.6718,118.7967,289.9258" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="143" x="131.5" y="291.0669">delivers a customer to</text></g><!--MD5=[5c0b5a94423be9d0d5ab918d5a6834a2]
+link Customer to CashRegister--><g id="link_Customer_CashRegister"><path codeLine="17" d="M66.57,136.35 C66.79,158.68 67.71,207.24 71.5,248 C74.07,275.68 79.35,307.89 82.33,324.96 " fill="none" id="Customer-CashRegister" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#000000" points="76.9163,240.049,79.0919,230.7906,73.2345,231.2801,76.9163,240.049" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="74" x="85.5" y="239.5669">is served at</text></g><!--MD5=[fe1a2959d8ef4ada9c89a0c68afad5c9]
 @startuml
 hide circle
 hide stereotype
 hide empty members
 
-CentroComercial - - Caja:> dispone de
-CentroComercial - - Cliente:> recibe
-CentroComercial - - Cajero:> dispone de
+ShoppingCenter - - CashRegister:> has
+ShoppingCenter - - Customer:> receives
+ShoppingCenter - - Cashier:> has
 
-'Cajero -u-|> Persona
-'Cliente -u-|> Persona
+'Cashier -u-|> Person
+'Customer -u-|> Person
 
-Cajero - - Caja:> atiende en
+Cashier - - CashRegister:> serves at
 
-Cliente - - Cola:> espera en
+Customer - - Queue:> waits in
 
-Cola - - Caja:> entrega un cliente a
-Cliente - - Caja:> es atendido en
+Queue - - CashRegister:> delivers a customer to
+Customer - - CashRegister:> is served at
 @enduml
 
 @startuml
@@ -36,17 +36,17 @@ hide circle
 hide stereotype
 hide empty members
 
-CentroComercial - - Caja:> dispone de
-CentroComercial - - Cliente:> recibe
-CentroComercial - - Cajero:> dispone de
+ShoppingCenter - - CashRegister:> has
+ShoppingCenter - - Customer:> receives
+ShoppingCenter - - Cashier:> has
 
 
-Cajero - - Caja:> atiende en
+Cashier - - CashRegister:> serves at
 
-Cliente - - Cola:> espera en
+Customer - - Queue:> waits in
 
-Cola - - Caja:> entrega un cliente a
-Cliente - - Caja:> es atendido en
+Queue - - CashRegister:> delivers a customer to
+Customer - - CashRegister:> is served at
 @enduml
 
 PlantUML version 1.2022.7(Mon Aug 22 19:01:30 CEST 2022)

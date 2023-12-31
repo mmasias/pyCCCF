@@ -1,18 +1,18 @@
-state centroComercial {
-    abierto --> abierto : [Dentro de horario]
+state ShoppingCenter {
+    open --> open : [Within operating hours]
 }
 
-[*] --> abierto
-abierto --> [*]
+[*] --> open
+open --> [*]
 
-state cola {
-    cerrada --> recibiendo: [centroComercial.abierto]
-    recibiendo --> recibiendo: [centroComercial.abierto]
-    recibiendo --> cerrada: [centroComercial.cerrado]
+state Queue {
+    closed --> receiving: [ShoppingCenter.open]
+    receiving --> receiving: [ShoppingCenter.open]
+    receiving --> closed: [ShoppingCenter.closed]
 }
 
-state caja {
-    ociosa --> atendiendo:[cola.clientes>=1]
-    atendiendo --> atendiendo:[cliente.items>=0]
-    atendiendo --> ociosa:[cliente.items==0]
+state CashRegister {
+    idle --> serving:[Queue.customers>=1]
+    serving --> serving:[customer.items>=0]
+    serving --> idle:[customer.items==0]
 }
