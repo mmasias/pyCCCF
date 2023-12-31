@@ -1,28 +1,28 @@
-object ": CentroComercial" as cccf
+object ": ShoppingCenter" as sc
 
-object "cliente1: Cliente" as cliente1
-object "cliente2: Cliente" as cliente2
-object "cliente3: Cliente" as cliente3
-object "clienteN: Cliente" as clienteN
+object "customer1: Customer" as customer1
+object "customer2: Customer" as customer2
+object "customer3: Customer" as customer3
+object "customerN: Customer" as customerN
 
-cccf -- cliente1:> recibe
-cccf -- cliente2:> recibe
-cccf -- cliente3:> recibe
-cccf -- clienteN:> recibe
+sc -- customer1:> receives
+sc -- customer2:> receives
+sc -- customer3:> receives
+sc -- customerN:> receives
 
-object "cola: Cola" as cola
+object "queue: Queue" as queue
 
-cliente1 -- cola:> espera en
-cliente2 -- cola:> espera en
-cliente3 -- cola:> espera en
-clienteN -- cola:> espera en
+customer1 -- queue:> waits in
+customer2 -- queue:> waits in
+customer3 -- queue:> waits in
+customerN -- queue:> waits in
 
-object "caja1: Caja" as caja1
-object "caja2: Caja" as caja2
-object "caja3: Caja" as caja3
-object "caja4: Caja" as caja4
+object "cashRegister1: CashRegister" as cr1
+object "cashRegister2: CashRegister" as cr2
+object "cashRegister3: CashRegister" as cr3
+object "cashRegister4: CashRegister" as cr4
 
-cola -- caja1:> entrega un cliente
-cola -- caja2:> entrega un cliente
-cola -- caja3:> entrega un cliente
-cola -- caja4:> entrega un cliente
+queue -- cr1:> delivers a customer
+queue -- cr2:> delivers a customer
+queue -- cr3:> delivers a customer
+queue -- cr4:> delivers a customer
